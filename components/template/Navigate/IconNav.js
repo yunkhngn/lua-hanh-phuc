@@ -17,7 +17,7 @@ const IconNav = ({ name, route }) => {
         m="1em auto 1em"
         transition
       >
-        <Icon name={name} size="25px" color={pathname === route ? "black500" : "disabled"} />
+        <Icon name={name} size="25px" color={pathname === route ? "black500" : "gray600"} />
       </Button>
     </Link>
   );
