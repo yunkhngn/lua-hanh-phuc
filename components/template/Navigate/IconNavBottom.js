@@ -9,13 +9,13 @@ const IconNavBottom = ({ name, route }) => {
   return (
     <Link href={route} passHref>
       <Div
-        p="1em"
+        p={{ x: "1rem" }}
         m="auto"
         justify="center"
         align="center"
         transition
       >
-        <Icon name={name} size="25px" color={pathname === route ? "black500" : "gray600"} />
+        <Icon name={name} size="25px" m="auto" color={pathname === route ? "black500" : "gray600"} />
       </Div>
     </Link>
   );
