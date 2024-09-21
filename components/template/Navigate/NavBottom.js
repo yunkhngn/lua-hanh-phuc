@@ -7,11 +7,11 @@ import { navRoute } from "../../lib";
 
 const NavBottom = () => {
   return (
-    <div className={styles.containerBottom}>
+    <nav className={styles.containerBottom}>
         {navRoute.map((item, index) => (
           <IconNavBottom key={index} name={item.name} route={item.route} />
         ))}
-    </div>
+    </nav>
   );
 };
 

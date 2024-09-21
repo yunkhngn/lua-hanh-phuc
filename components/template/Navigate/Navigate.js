@@ -10,7 +10,7 @@ import { navRoute } from "../../lib";
 
 const Navigate = () => {
   return (
-    <div className={styles.container}>
+    <nav className={styles.container}>
       <div className={styles.logo}>
         <Link href="/" passHref>
           <Image src="/logo.svg" alt="logo" width={50} height={50} priority={true}/>
@@ -28,7 +28,7 @@ const Navigate = () => {
       <div className={styles.mobile}>
         <NavMobile />
       </div>
-    </div>
+    </nav>
   );
 };
 
