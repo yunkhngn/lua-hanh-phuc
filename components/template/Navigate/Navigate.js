@@ -22,7 +22,8 @@ const Navigate = () => {
         ))}
       </div>
       <div className={styles.setting}>
-        <IconSetting name="Facebook" />
+        <IconSetting name="Facebook" link="https://www.facebook.com/yun.khngn/" />
+        <IconSetting name="Email" link="mailto:suoiam.project@gmail.com" />
       </div>
       <div className={styles.mobile}>
         <NavMobile />

@@ -1,10 +1,10 @@
-import React from 'react'
-import {useState} from 'react'
-import {Icon, Button,Collapse, Div} from 'atomize'
+import React from "react";
+import { useState } from "react";
+import { Icon, Button, Div } from "atomize";
+import Link from "next/link";
 
 const NavMobile = () => {
-    const [open, setOpen] = useState(false)
-    
+  const [open, setOpen] = useState(false);
   return (
     <div>
       <Button
@@ -16,12 +16,18 @@ const NavMobile = () => {
         onClick={() => setOpen(!open)}
         transition
       >
-        <Icon name={open ? "Cross" : "Menu"} size="25px" color="black500" hoverColor="black900" transition/>
+        <Icon
+          name={open ? "Cross" : "Menu"}
+          size="25px"
+          color="black500"
+          hoverColor="black900"
+          transition
+        />
       </Button>
-        <Div
+      <Div
         pos="fixed"
         w="50vw"
-        m={{t: "1.5em", r: "0.5em"}}
+        m={{ t: "1.5em", r: "0.5em" }}
         right="0"
         d={{ xs: open ? "flex" : "none", md: "none" }}
         flexDir="column"
@@ -30,11 +36,44 @@ const NavMobile = () => {
         border="1px solid"
         borderColor="gray300"
         rounded="xl"
+      >
+        <Button
+          bg="white"
+          textColor="black500"
+          m="0.5em"
+          w="100%"
+          transition
+          justify="flex-start"
+          onClick={() => window.open("https://www.facebook.com/yun.khngn/")}
         >
-            Chưa code
-        </Div>
+          <Icon
+            name="Facebook"
+            color="black500"
+            size="20px"
+            m={{ r: "1.5em" }}
+          />
+          <p>Facebook</p>
+        </Button>
+        <Button
+          bg="white"
+          textColor="black500"
+          m="0.5em"
+          w="100%"
+          transition
+          justify="flex-start"
+          onClick={() => window.location.href = "mailto:suoiam.project@gmail.com"}
+        >
+          <Icon
+            name="Email"
+            color="black500"
+            size="20px"
+            m={{ r: "1.5em" }}
+          />
+          <p>Mail</p>
+        </Button>
+      </Div>
     </div>
-  )
-}
+  );
+};
 
-export default NavMobile
+export default NavMobile;
