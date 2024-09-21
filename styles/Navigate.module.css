@@ -28,6 +28,11 @@
 .logo{
   margin-top: 1em;
 }
+.logo:hover{
+  cursor: pointer;
+  scale: 1.1;
+  transition: 0.2s ease-in-out;
+}
 .mobile{
   display: none;
 }
@@ -41,6 +46,10 @@
     padding: 10px;
     justify-content: space-between;
     align-items: center;
+  }
+  .logo:hover{
+    cursor: pointer;
+    scale: 1;
   }
   .containerBottom{
     display: flex;
