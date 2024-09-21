@@ -29,7 +29,9 @@ a {
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
-
+button {
+  -webkit-tap-highlight-color: transparent;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -41,7 +43,6 @@ a {
   width: 60%;
   margin: 5em auto 5em;
 }
-
 @media (max-width: 768px) {
   .template {
     width: 90%;
