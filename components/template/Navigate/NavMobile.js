@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Icon, Button, Div } from "atomize";
-import Link from "next/link";
+import { Icon, Button, Div, Text } from "atomize";
 
 const NavMobile = () => {
   const [open, setOpen] = useState(false);
@@ -26,7 +25,7 @@ const NavMobile = () => {
       </Button>
       <Div
         pos="fixed"
-        w="50vw"
+        w="45vw"
         m={{ t: "1.5em", r: "0.5em" }}
         right="0"
         d={{ xs: open ? "flex" : "none", md: "none" }}
@@ -37,40 +36,41 @@ const NavMobile = () => {
         borderColor="gray300"
         rounded="xl"
       >
-        <Button
+        <Div
           bg="white"
+          d="flex"
+          align="center"
+          textAlign="center"
           textColor="black500"
           m="0.5em"
-          w="100%"
+          w="90%"
+          p={{b: "1em"}}
           transition
+          border={{ b: "1px solid" }}
+          borderColor="gray300"
           justify="flex-start"
           onClick={() => window.open("https://www.facebook.com/yun.khngn/")}
         >
-          <Icon
-            name="Facebook"
-            color="black500"
-            size="20px"
-            m={{ r: "1.5em" }}
-          />
-          <p>Facebook</p>
-        </Button>
-        <Button
+          <Text
+          color="black500"
+          >Fanpage dự án</Text>
+        </Div>
+        <Div
           bg="white"
+          d="flex"
+          align="center"
+          textAlign="center"
           textColor="black500"
           m="0.5em"
-          w="100%"
+          w="90%"
           transition
           justify="flex-start"
           onClick={() => window.location.href = "mailto:suoiam.project@gmail.com"}
         >
-          <Icon
-            name="Email"
-            color="black500"
-            size="20px"
-            m={{ r: "1.5em" }}
-          />
-          <p>Mail</p>
-        </Button>
+          <Text
+          color="black500"
+          >Mail dự án</Text>
+        </Div>
       </Div>
     </div>
   );
