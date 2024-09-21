@@ -35,6 +35,7 @@ const NavMobile = () => {
         border="1px solid"
         borderColor="gray300"
         rounded="xl"
+        bg="white"
       >
         <Div
           bg="white"
