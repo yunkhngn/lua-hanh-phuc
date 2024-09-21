@@ -1,8 +1,11 @@
 import React from 'react'
-
+import {Template} from '../components/template'
+import {desc} from '../components/lib/'
 const contact = () => {
   return (
-    <div>contact</div>
+    <Template meta={desc.contact}>
+
+    </Template>
   )
 }
 

@@ -1,8 +1,12 @@
 import React from 'react'
+import {Template} from '../components/template'
+import {desc} from '../components/lib/'
 
 const gallery = () => {
   return (
-    <div>gallery</div>
+    <Template meta={desc.gallery}>
+     
+    </Template>
   )
 }
 

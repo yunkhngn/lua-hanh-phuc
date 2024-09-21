@@ -2,12 +2,12 @@ import React from 'react'
 import {Template} from '../components/template'
 import {desc} from '../components/lib/'
 
-const funding = () => {
+const post = () => {
   return (
-    <Template meta={desc.funding}>
-      
+    <Template meta={desc.post}>
+     
     </Template>
   )
 }
 
-export default funding
+export default post
