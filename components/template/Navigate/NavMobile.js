@@ -5,13 +5,12 @@ import { Icon, Button, Div, Text } from "atomize";
 const NavMobile = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div>
+    <div className="navMob">
       <Button
         h="3rem"
         w="100%"
         bg="white"
         rounded="10px"
-        m="auto"
         onClick={() => setOpen(!open)}
         transition
       >

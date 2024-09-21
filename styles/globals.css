@@ -49,4 +49,10 @@ button {
     margin-top: calc(1em + 76px);
     margin-bottom: calc(2em + 76px);
   }
+  .navMob{
+    position:absolute;
+    top:0;
+    right:0;
+    margin: 1em;
+  }
 }
