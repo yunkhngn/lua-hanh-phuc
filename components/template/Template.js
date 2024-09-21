@@ -3,7 +3,9 @@ import MetaTags from './MetaTags'
 
 const Template = ({children,meta}) => {
   return (
-    <div>
+    <div
+    className='template'
+    >
     <MetaTags meta={meta}/>
     {children}</div>
   )
