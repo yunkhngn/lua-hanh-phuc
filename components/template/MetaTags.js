@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const MetaTags = ({meta}) => {
+const MetaTags = ({ meta }) => {
   return (
     <Head>
       <title>{meta.title}</title>
@@ -64,6 +64,36 @@ const MetaTags = ({meta}) => {
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
       <meta name="theme-color" content="#ffffff" />
+      {/* Facebook */}
+      <meta property="og:site_name" content="Sưởi ấm"></meta>
+      <meta property="og:type" content="website" />
+      <meta
+        property="og:url"
+        content={meta.url || "https://suoiam.org"}
+      />
+      <meta property="og:title" content={meta.title} />
+      <meta
+        property="og:description"
+        content={
+          meta.desc ||
+          "Dự án sưởi ấm."
+        }
+      />
+      <meta property="og:image" content={meta.img} />
+      <meta property="og:image:alt" content="Sưởi ấm" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta property="fb:app_id" content="1881282985689458" />
+      {/* Twitter */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta property="twitter:domain" content={meta.url} />
+      <meta property="twitter:url" content={meta.url} />
+      <meta name="twitter:title" content={meta.title} />
+      <meta name="twitter:description" content={meta.description} />
+      <meta name="twitter:image" content={meta.img} />
+      <meta property="twitter:image:alt" content="Sưởi ấm"/>
+      <meta property="twitter:image:width" content="1200"/>
+      <meta property="twitter:image:height" content="630"/>
     </Head>
   );
 };
