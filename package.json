@@ -9,13 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
+    "atomize": "^1.0.28",
     "framer-motion": "^11.5.5",
     "next": "14.2.11",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-transition-group": "^4.4.5",
+    "styletron-engine-atomic": "^1.6.2",
+    "styletron-react": "^6.1.1"
   },
   "devDependencies": {
     "eslint": "^8",

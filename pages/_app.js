@@ -1,12 +1,13 @@
 import "@/styles/globals.css";
-import { ChakraProvider } from '@chakra-ui/react'
 import { Navigate } from "@/components/template";
+import { styletron } from "../styletron";
+import { Provider as StyletronProvider } from "styletron-react";
 
 export default function App({ Component, pageProps }) {
   return (
-    <ChakraProvider>
+    <StyletronProvider value={styletron}>
       <Component {...pageProps} />
       <Navigate />
-    </ChakraProvider>
+    </StyletronProvider>
   )
 }
