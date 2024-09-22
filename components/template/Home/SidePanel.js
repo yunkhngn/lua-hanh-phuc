@@ -1,5 +1,6 @@
 import React from 'react'
 import {Div, Button} from 'atomize'
+import Link from 'next/link'
 const SidePanel = () => {
   return (
    <Div
@@ -13,11 +14,14 @@ const SidePanel = () => {
       <div className="Heading">
         <h1 className="SidePanelFont">Sưởi ấm <br/> những <span className="insideText">trái tim</span><br/>yêu thương.</h1>
         <p className="Paragraph">Dự án mang tên Sưởi ấm, được lập nên với mong muốn tiếp sức và trao yêu thương, tiếp thêm động lực, lan tỏa năng lượng tích cực tới các em nhỏ mồ côi tại Làng trẻ em SOS.</p>
-        <Button
-        w="200px"
-        m={{ t: '2em',b: '1em' }}
-        bg="black900"
-        >Đóng góp ngay</Button>
+        <Link href="/funding" passHref>
+          <Button
+          w="200px"
+          m={{ t: '2em',b: '1em' }}
+          bg="black900"
+          hoverBg="black500"
+          >Đóng góp ngay</Button>
+        </Link>
       </div>
     </Div>
   )

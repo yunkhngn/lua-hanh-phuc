@@ -7,7 +7,7 @@ const Carousel = () => {
     className="carousel"
     >
       <Image 
-      src="/kids.jpg" 
+      src="/anh.jpg" 
       alt="carousel1" 
       fill
       style={{

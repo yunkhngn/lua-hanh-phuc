@@ -7,7 +7,7 @@ const ShowCase = () => {
   return (
     <Div
     w="100%"
-    h="100%"
+    h={{ xs: 'auto', md: '100vh' }}
     d="flex"
     flexDir={{ xs: 'column', md: 'row' }}
     justify="space-between"
