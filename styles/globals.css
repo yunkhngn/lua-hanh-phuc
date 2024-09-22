@@ -44,6 +44,7 @@ button {
 }
 
 .carousel{
+  position: relative;
   background-color: #171717;
   width: 50%;
   overflow: hidden;
@@ -53,7 +54,7 @@ button {
 .SidePanelFont{
   font-size: 5vw;
   font-weight: bold;
-  color: #222222;
+  color: #0A1F44;
   font-family: "Helvetica Neue", sans-serif;
 }
 
@@ -78,13 +79,14 @@ button {
 }
 
 .Heading{
-  margin-left: 1em;
+  margin-left: 2em;
 }
 .Paragraph{
   margin-top:2em;
   font-size: 16px;
   width: 80%;
   letter-spacing: 0.5px;
+  color:#0A1F44;
 }
 
 @media (max-width: 768px) {
@@ -111,5 +113,8 @@ button {
   .Paragraph{
     width: 100%;
     font-size: 16px;
+  }
+  .Heading{
+    margin-left: 1em;
   }
 }

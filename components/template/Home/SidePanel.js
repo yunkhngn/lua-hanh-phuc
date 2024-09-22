@@ -16,6 +16,7 @@ const SidePanel = () => {
         <Button
         w="200px"
         m={{ t: '2em',b: '1em' }}
+        bg="black900"
         >Đóng góp ngay</Button>
       </div>
     </Div>

@@ -6,7 +6,15 @@ const Carousel = () => {
     <div
     className="carousel"
     >
-      a
+      <Image 
+      src="/kids.jpg" 
+      alt="carousel1" 
+      fill
+      style={{
+        objectFit: "cover",
+      }}
+      onDragStart={(e) => e.preventDefault()}
+      />
     </div>
   );
 };
