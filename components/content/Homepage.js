@@ -1,10 +1,13 @@
 import React from 'react'
+import styles from '@/styles/Homepage.module.css'
+import {ShowCase} from '@/components/template'
+import Image from 'next/image'
 
 const Homepage = () => {
   return (
-    <div>
-      <h1>Homepage</h1>
-    </div>
+    <section>
+      <ShowCase />
+    </section>
   )
 }
 

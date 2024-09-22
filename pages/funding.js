@@ -5,7 +5,7 @@ import {desc} from '../components/lib/'
 const funding = () => {
   return (
     <Template meta={desc.funding}>
-      
+      Funding
     </Template>
   )
 }

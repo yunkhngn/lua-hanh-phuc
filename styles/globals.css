@@ -39,13 +39,59 @@ button {
 }
 
 .template {
-  background-color: aliceblue;
-  width: 60%;
-  margin: 5em auto 5em;
+  width: calc(100% - 76px);
+  margin: 5em 76px 5em;
 }
+
+.carousel{
+  background-color: #171717;
+  width: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.SidePanelFont{
+  font-size: 5vw;
+  font-weight: bold;
+  color: #222222;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.insideText{
+  font-family: "Farnham Text";
+  font-style: italic;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+}
+
+.insideText::before{
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: #FFE381;
+  z-index: -1; 
+  transition: all 0.3s ease; 
+}
+
+.Heading{
+  margin-left: 1em;
+}
+.Paragraph{
+  margin-top:2em;
+  font-size: 16px;
+  width: 80%;
+  letter-spacing: 0.5px;
+}
+
 @media (max-width: 768px) {
   .template {
-    width: 90%;
+    width: 100%;
+    margin-left:0;
+    margin-right:0;
     margin-top: calc(1em + 76px);
     margin-bottom: calc(2em + 76px);
   }
@@ -54,5 +100,16 @@ button {
     top:0;
     right:0;
     margin: 1em;
+  }
+  .carousel{
+    width: 100%;
+    height: 300px;
+  }
+  .SidePanelFont{
+    font-size: 45px;
+  }
+  .Paragraph{
+    width: 100%;
+    font-size: 16px;
   }
 }
