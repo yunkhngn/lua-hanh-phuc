@@ -1,25 +1,36 @@
-import React from 'react'
-import Image from 'next/image'
-
-const Pics = () => {
-  //get an array of 100 images of random cats
-  const images = Array.from({ length: 20 }, () => `https://cataas.com/cat?${Math.random()}`)
+import React from "react";
+import Image from "next/image";
+import { Div } from "atomize";
+import {Title} from '../template'
+const Pics = ({ data }) => {
   return (
-    <section className='picsGallery'>
-      {images.map((image, index) => (
-        <div key={index} className='picHolder'>
-          <Image src={image} 
-          alt={`pic-${index+1}`} 
-          fill
-          style={{
-            objectFit: "cover",
-          }}
-          onDragStart={(e) => e.preventDefault()}
+    <div className="wrapper">
+    <Title 
+        label="Here starts your new professional life (All of our offers are not shown for confidentiality reasons)."
+        pre="/ Gallery."
+        >Thư viện</Title>
+    <section className="picsGallery">
+      {data.length > 0 ? (data.map((item) => (
+        <div key={item.id} className="picHolder">
+          <Image
+            src={item.image}
+            alt="Picture"
+            fill
+            priority={true}
+            style={{
+              objectFit: "cover",
+            }}
+            onDragStart={(e) => e.preventDefault()}
           />
         </div>
-      ))}
+      ))) : 
+      <Div>
+        Chưa có ảnh nào được đăng tải...
+      </Div>
+      }
     </section>
-  )
-}
+    </div>
+  );
+};
 
-export default Pics
+export default Pics;

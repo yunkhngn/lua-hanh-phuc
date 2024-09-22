@@ -181,7 +181,7 @@ button {
 
 @media (max-width: 768px) {
   .picsGallery{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .template {
     width: 100%;
