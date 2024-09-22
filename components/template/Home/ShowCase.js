@@ -11,6 +11,7 @@ const ShowCase = () => {
     d="flex"
     flexDir={{ xs: 'column', md: 'row' }}
     justify="space-between"
+    m={{ b: '5em' }}
     >
         <SidePanel />
         <Carousel />

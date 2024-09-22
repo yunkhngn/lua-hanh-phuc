@@ -1,6 +1,6 @@
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0A1F44;
 }
 
 
@@ -8,12 +8,13 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Roboto, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -91,12 +92,55 @@ button {
   color:#0A1F44;
 }
 
+.title{
+  font-size: 80px;
+  font-weight: 550;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
+.label{
+  font-size: 18px;
+  font-weight: 400;
+  width: 70%;
+  margin-bottom: 3em;
+}
+
+.avatar{
+ justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.suMenh{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+  width: 50%;
+  margin-top: 1em;
+}
+
+.picsGallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+.picHolder{
+  position: relative;
+  aspect-ratio: 3/3;
+  overflow: hidden;
+  cursor: pointer;
+}
 @media (max-width: 768px) {
+  .picsGallery{
+    grid-template-columns: 1fr 1fr;
+  }
   .template {
     width: 100%;
     margin-left:0;
     margin-right:0;
-    margin-top: calc(1em + 76px);
+    margin-top: 76px;
     margin-bottom: calc(2em + 76px);
   }
   .navMob{
