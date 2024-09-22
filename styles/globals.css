@@ -41,12 +41,12 @@ button {
 
 .wrapper{
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto 5em;
 }
 
 .template {
   width: calc(100% - 76px);
-  margin: 0em 76px 5em;
+  margin: 0 76px 0;
 }
 
 .carousel{
@@ -229,6 +229,10 @@ button {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
   }
+  .wrapper{
+    width: 90%;
+    margin: 0 auto 10em;
+  }
   .picsGallery{
     grid-template-columns: 1fr;
   }
@@ -237,7 +241,7 @@ button {
     margin-left:0;
     margin-right:0;
     margin-top: 76px;
-    margin-bottom: calc(2em + 76px);
+    margin-bottom: calc(0 + 76px);
   }
   .navMob{
     position:absolute;
