@@ -39,15 +39,15 @@ const Footer = () => {
         m={{ t: { xs: "3em", md: "0" } }}
         >
             <Text
-            textSize={{ xs: "title", md: "heading" }}
+            textSize="title"
             >Dự án mang tên Sưởi ấm, được lập nên với mong muốn tiếp sức và trao yêu thương, tiếp thêm động lực, lan tỏa năng lượng tích cực tới các em nhỏ mồ côi tại Làng trẻ em SOS.</Text>
             <Text
             m={{t: "2em"}}
-            textSize="paragraph"
+            textSize="subheader"
             >Email: suoiam.project@gmail.com</Text>
             <Text
-            textSize="paragraph"
-            >Tel: 0376971168 (Mr.Khoa)</Text>
+            textSize="subheader"
+            >Tel: 0376971168 (Mr. Khoa)</Text>
         </Div>
       </Div>
       <hr className="footerHR" />

@@ -12,7 +12,7 @@ const SidePanel = () => {
     flexDir="column"
    >
       <div className="Heading">
-        <h1 className="SidePanelFont">Sưởi ấm <br/> những <span className="insideText">trái tim</span><br/>yêu thương.</h1>
+        <h1 className="SidePanelFont">Mang <span className="insideText">yêu thương</span><br/>sưởi ấm <br/> những trái tim.</h1>
         <p className="Paragraph">Dự án mang tên Sưởi ấm, được lập nên với mong muốn tiếp sức và trao yêu thương, tiếp thêm động lực, lan tỏa năng lượng tích cực tới các em nhỏ mồ côi tại Làng trẻ em SOS.</p>
         <Link href="/funding" passHref>
           <Button

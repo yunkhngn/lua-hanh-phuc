@@ -16,7 +16,7 @@ const Pics = ({ data }) => {
         <div key={item.id} className="picHolder">
           <Image
             src={item.image}
-            alt="Picture"
+            alt={item.title}
             fill
             priority={true}
             style={{

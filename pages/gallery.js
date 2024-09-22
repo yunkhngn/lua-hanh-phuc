@@ -26,6 +26,7 @@ export async function getStaticProps() {
     return {
       id: item.sys.id,
       image: 'https:' + item.fields.images.fields.file.url,
+      title: item.fields.title,
       createdAt: item.sys.createdAt, 
       updatedAt: item.sys.updatedAt,
     };
