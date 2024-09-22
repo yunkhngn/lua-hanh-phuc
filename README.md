@@ -40,6 +40,16 @@ To start the development server, run:
 yarn start
 ```
 
+## Feature Roadmap
+- [ ] Image Skeleton
+- [ ] Create Post page
+- [ ] Create courasel
+- [ ] Optimize image
+- [ ] Finish content
+- [ ] Create campaign page
+- [] Create mail template
+
+
 ## Contributing
 
 We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for more information.
