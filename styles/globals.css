@@ -166,7 +166,7 @@ button {
 }
 
 .seperate{
-  margin-bottom: 3em;
+  margin-bottom: 2.5em;
   border:none;
   margin-top:1em;
   flex: 1 1 0%;
@@ -179,7 +179,56 @@ button {
   height: 50%;
 }
 
+.teamMember{
+  display: grid;
+  margin:auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.teamImage{
+  position: relative;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  margin-top:1em;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.linkTo{
+  color: #222222;
+  text-transform: uppercase;
+  font-size: smaller;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.linkTo:before{
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #222222;
+  transition: all 0.5s ease; 
+}
+
+.linkTo:not(:hover){
+  opacity: 0.5;
+}
+
+.linkTo:not(:hover)::before{
+  opacity: 0.5;
+}
+
 @media (max-width: 768px) {
+  .teamMember{
+    display: grid;
+    margin:auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  }
   .picsGallery{
     grid-template-columns: 1fr;
   }

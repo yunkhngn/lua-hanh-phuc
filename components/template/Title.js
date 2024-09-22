@@ -1,7 +1,7 @@
 import React from "react";
 import { Div, Text } from "atomize";
 
-const Title = ({ children, label, pre }) => {
+const Title = ({ children, label, pre, size }) => {
   return (
     <Div m={{ t: "5em" }}>
       <div className="path">
@@ -9,7 +9,7 @@ const Title = ({ children, label, pre }) => {
           {pre}
         </Text>
       </div>
-      <Text textSize="display3" m={{ b: "20px", t: "20px" }} textWeight="550">
+      <Text textSize={size} m={{ b: "20px", t: "20px" }} textWeight="550">
         {children}
       </Text>
       <Text textSize="subheader" w={{xs: "90%", md:"50%"}} m={{ b: "2em" }}>

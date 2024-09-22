@@ -8,6 +8,7 @@ const Pics = ({ data }) => {
     <Title 
         label="Here starts your new professional life (All of our offers are not shown for confidentiality reasons)."
         pre="/ Gallery."
+        size="display3"
         >Thư viện</Title>
     <section className="picsGallery">
       {data.length > 0 ? (data.map((item) => (
