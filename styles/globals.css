@@ -46,7 +46,7 @@ button {
 
 .template {
   width: calc(100% - 76px);
-  margin: 0 76px 0;
+  margin: 5em 76px 5em;
 }
 
 .carousel{
@@ -238,10 +238,10 @@ button {
   }
   .template {
     width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 76px;
-    margin-bottom: 76px; /* Tối ưu hóa */
+    margin-left:0;
+    margin-right:0;
+    margin-top: calc(1em + 76px);
+    margin-bottom: calc(2em + 76px);
   }
   .navMob{
     position:absolute;
