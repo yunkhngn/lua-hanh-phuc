@@ -1,7 +1,6 @@
 import React from 'react'
 import {Div, Text} from 'atomize'
 import Image from 'next/image'
-import Table from './Table'
 
 const AboutUs = () => {
   return (

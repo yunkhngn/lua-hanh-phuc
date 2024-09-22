@@ -11,6 +11,7 @@ const IconNavBottom = ({ name, route }) => {
       <Div
         p={{ x: "1rem" }}
         m="auto"
+        d="flex"
         justify="center"
         align="center"
         transition

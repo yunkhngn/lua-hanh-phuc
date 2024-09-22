@@ -7,9 +7,10 @@ const Carousel = () => {
     className="carousel"
     >
       <Image 
-      src="/anh.jpg" 
+      src="/logo.png" 
       alt="carousel1" 
       fill
+      priority={true}
       style={{
         objectFit: "cover",
       }}
