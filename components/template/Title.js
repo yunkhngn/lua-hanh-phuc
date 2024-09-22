@@ -1,13 +1,21 @@
 import React from "react";
 import { Div, Text } from "atomize";
 
-const Title = ({ children, label }) => {
+const Title = ({ children, label, pre }) => {
   return (
-    <Div w="70%" m="5em auto 0">
-      <Text textSize="display3" m={{ b: "20px" }} textWeight="550">{children}</Text>
-      <Text textSize="subheader" w="70%" m={{ b: "5em" }}>
+    <Div m={{ t: "5em" }}>
+      <div className="path">
+        <Text textSize="subheader" textWeight="500">
+          {pre}
+        </Text>
+      </div>
+      <Text textSize="display3" m={{ b: "20px", t: "20px" }} textWeight="550">
+        {children}
+      </Text>
+      <Text textSize="subheader" w={{xs: "90%", md:"50%"}} m={{ b: "2em" }}>
         {label}
       </Text>
+      <hr className="seperate"/>
     </Div>
   );
 };
