@@ -46,7 +46,7 @@ button {
 
 .template {
   width: calc(100% - 76px);
-  margin: 5em 76px 5em;
+  margin: 0em 76px 0em;
 }
 
 .carousel{
