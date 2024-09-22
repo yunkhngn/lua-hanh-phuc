@@ -1,5 +1,5 @@
 import React from 'react'
-import {Title} from '../template'
+import {Title, Footer} from '../template'
 
 const Poster = () => {
   return (
@@ -9,6 +9,7 @@ const Poster = () => {
         pre="/ Post."
         size="display3"
         >Bài đăng</Title>
+        <Footer/>
     </section>
   )
 }

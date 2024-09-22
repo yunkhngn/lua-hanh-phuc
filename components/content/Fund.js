@@ -1,5 +1,5 @@
 import React from 'react'
-import {Title} from '../template'
+import {Title, Footer} from '../template'
 const Fund = () => {
   return (
     <section className='fund wrapper'>
@@ -8,6 +8,7 @@ const Fund = () => {
         pre="/ Funding."
         size="display3"
         >Chiến dịch gây quỹ</Title>
+        <Footer/>
     </section>
   )
 }

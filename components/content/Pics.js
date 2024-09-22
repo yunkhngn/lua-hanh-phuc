@@ -1,16 +1,17 @@
 import React from "react";
 import Image from "next/image";
 import { Div } from "atomize";
-import {Title} from '../template'
+import {Title, Footer} from '../template'
+
 const Pics = ({ data }) => {
   return (
-    <div className="wrapper">
+    <section className="wrapper">
     <Title 
         label="Here starts your new professional life (All of our offers are not shown for confidentiality reasons)."
         pre="/ Gallery."
         size="display3"
         >Thư viện</Title>
-    <section className="picsGallery">
+    <div className="picsGallery">
       {data.length > 0 ? (data.map((item) => (
         <div key={item.id} className="picHolder">
           <Image
@@ -29,8 +30,9 @@ const Pics = ({ data }) => {
         Chưa có ảnh nào được đăng tải...
       </Div>
       }
-    </section>
     </div>
+    <Footer/>
+    </section>
   );
 };
 

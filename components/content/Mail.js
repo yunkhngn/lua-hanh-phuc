@@ -1,5 +1,5 @@
 import React from 'react'
-import {Title} from '../template'
+import {Title, Footer} from '../template'
 
 const Mail = () => {
   return (
@@ -9,6 +9,7 @@ const Mail = () => {
         pre="/ Contact."
         size="display3"
         >Liên hệ</Title>
+        <Footer/>
     </section>
   )
 }

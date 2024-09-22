@@ -175,6 +175,14 @@ button {
   flex-shrink: 0;
 }
 
+.footerHR{
+  margin-top: 3em;
+  border:none;
+  flex: 1 1 0%;
+  border-bottom: 1px solid hsl(0 0% 88.7%);
+  width: 100%; 
+  flex-shrink: 0;
+}
 .path:hover::before{
   height: 50%;
 }
