@@ -20,7 +20,7 @@ const SidePanel = () => {
           m={{ t: '2em',b: '1em' }}
           bg="black900"
           hoverBg="black500"
-          >Đóng góp ngay</Button>
+          >Quyên góp</Button>
         </Link>
       </div>
     </Div>

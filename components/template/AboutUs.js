@@ -19,8 +19,8 @@ const AboutUs = () => {
           height={300}
           style={{
             borderRadius: "50%",
-            marginBottom: "1em",
-            boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
+            marginBottom: "2em",
+            border: "7px solid #0A1F44"
           }}
           onDragStart={(e) => e.preventDefault()}
         />

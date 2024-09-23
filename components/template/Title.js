@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Title = ({ children, label, pre, size }) => {
   return (
-    <Div m={{ t: "5em" }}>
+    <Div m={{ t: {xs:"3em", md:"5em"}}}>
       <div className="path">
         <Text textSize="subheader" textWeight="500">
            <Link href="/"><strong>Home</strong></Link> {pre}

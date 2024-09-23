@@ -99,7 +99,14 @@ button {
   letter-spacing: 0.5px;
   color:#0A1F44;
 }
-
+.imageFull{
+  width: 100%;
+  position: relative;
+  aspect-ratio: 16/7;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 16px;
+}
 .title{
   font-size: 80px;
   font-weight: 550;
@@ -253,6 +260,12 @@ button {
     margin:auto;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
+  }
+  .imageFull{
+    width: 100%;
+    position: relative;
+    aspect-ratio: 16/10;
+    border-radius: 12px;
   }
 
   .Look{
