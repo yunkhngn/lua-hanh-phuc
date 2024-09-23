@@ -79,7 +79,7 @@ const MetaTags = ({ meta }) => {
           "Dự án sưởi ấm."
         }
       />
-      <meta property="og:image" content={meta.img} />
+      <meta property="og:image" content={meta.img || "https://suoiam.vercel.app/thumbnail.jpg"} />
       <meta property="og:image:alt" content="Sưởi ấm" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
@@ -90,7 +90,7 @@ const MetaTags = ({ meta }) => {
       <meta property="twitter:url" content={meta.url} />
       <meta name="twitter:title" content={meta.title} />
       <meta name="twitter:description" content={meta.description} />
-      <meta name="twitter:image" content={meta.img} />
+      <meta name="twitter:image" content={meta.img || "https://suoiam.vercel.app/thumbnail.jpg"} />
       <meta property="twitter:image:alt" content="Sưởi ấm"/>
       <meta property="twitter:image:width" content="1200"/>
       <meta property="twitter:image:height" content="630"/>
