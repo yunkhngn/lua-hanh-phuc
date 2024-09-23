@@ -20,6 +20,7 @@ const AboutUs = () => {
           style={{
             borderRadius: "50%",
             marginBottom: "1em",
+            boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
           }}
           onDragStart={(e) => e.preventDefault()}
         />

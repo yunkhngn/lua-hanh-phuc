@@ -123,10 +123,28 @@ button {
 
 .suMenh{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2em;
-  width: 50%;
+  grid-template-columns: 1fr 1fr 1fr;
   margin-top: 1em;
+  gap: 2em;
+  width: 100%;
+}
+.suMenhTag:hover{
+  color: rgb(221,111,84);
+  transition: all 0.3s ease;
+}
+.suMenhPhoto{
+  width: 100%;
+  position: relative;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.Look{
+  width: 80%;
+  padding-left:10%;
+  text-align: right;
+  margin-bottom: 1em;
 }
 
 .giaTriCotLoi{
@@ -235,6 +253,17 @@ button {
     margin:auto;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
+  }
+
+  .Look{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1em;
+    padding-left:0%;
+  }
+  .suMenh{
+    display: grid;
+    grid-template-columns: 1fr;
   }
   .wrapper{
     width: 90%;

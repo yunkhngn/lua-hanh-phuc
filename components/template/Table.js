@@ -1,19 +1,46 @@
 import React from 'react'
 import {Div,Text} from 'atomize'
-const Table = ({children, color, title}) => {
+import Image from 'next/image'
+
+const Table = ({children, color, title, img}) => {
   return (
     <Div
     bg={color}
     w="100%"
-    p={{ x: "1em", y: "1em" }}
     justify="center"
     align="center"
     d="flex"
     flexDir="column"
-    h="300px"
+    rounded="16px"
+    shadow="4"
+    className="suMenhTag"
     >
-        <Text>{title}</Text>
-        <Text>{children}</Text>
+      <div className="suMenhPhoto">
+      <Image 
+      src={img}
+      alt={title}
+      fill
+      priority={true}
+      style={{
+        objectFit: "cover",
+        borderRadius: "16px 16px 0 0",
+      }}
+      onDragStart={(e) => e.preventDefault()}
+      />
+      </div>
+      <Div
+      p={{ x: "2em", y: "0.5em" }}
+      >
+        <Text
+        m={{ b: "0.4em", t:"0.4em" }}
+        textSize="display1"
+        textWeight="600"
+        >{title}</Text>
+        <Text
+        m={{ b: "1em"}}
+        textSize="title"
+        >{children}</Text>
+        </Div>
     </Div>
   )
 }
