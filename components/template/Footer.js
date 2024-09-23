@@ -40,11 +40,11 @@ const Footer = () => {
         >
             <Text
             textSize="title"
-            >Dự án Thắp lửa, được thành lập nên với mong muốn truyền tải và lan tỏa giá trị tốt đẹp của mô hình “Trường học hạnh phúc” tiếp cận nhiều hơn tới các cơ sở giáo dục, trường học.</Text>
+            >Dự án Lửa hạnh phúc, được thành lập nên với mong muốn truyền tải và lan tỏa giá trị tốt đẹp của mô hình “Trường học hạnh phúc” tiếp cận nhiều hơn tới các cơ sở giáo dục, trường học.</Text>
             <Text
             m={{t: "2em"}}
             textSize="subheader"
-            >Email: thaplua.project@gmail.com</Text>
+            >Email: luahanhphuc.project@gmail.com</Text>
             <Text
             textSize="subheader"
             >Tel: 0376971168 (Mr. Khoa)</Text>
@@ -53,7 +53,7 @@ const Footer = () => {
       <hr className="footerHR" />
       <Div d="flex" justify="space-between" m={{ t: "2rem" }}>
         <Text textSize="body" textColor="gray800">
-          Copyright © Thắp lửa Project
+          Copyright © Lửa hạnh phúc Project
         </Text>
         <Text textSize="body" textColor="gray800">
           By Skibidi Team

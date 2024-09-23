@@ -7,7 +7,7 @@ const Homepage = () => {
       <ShowCase />
       <div className="wrapper">
         <Title
-          label="Here starts your new professional life (All of our offers are not shown for confidentiality reasons)."
+          label="Giới thiệu thông tin về dự án."
           pre="/."
           size="display2"
         >
@@ -15,23 +15,24 @@ const Homepage = () => {
         </Title>
         <AboutUs />
         <Title
-          label='"Điều khiến đứa trẻ đau khổ không phải là thiếu quần áo, đồ ăn, hay giáo dục mà là không được thuộc về ai và không có một gia đình."'
+          label='"Môi trường giáo dục hạnh phúc hướng đến mục tiêu tạo dựng môi trường lý tưởng cho giáo viên và người học đều cảm thấy hạnh phúc, có hành vi và tâm hồn đẹp. Thầy cô giáo và học sinh có cơ hội phát triển toàn diện, thúc đẩy một tương lai trường học cấp tiên và thân thiện. Mọi cảm xúc riêng biệt, sự sáng tạo, cá tính của giáo viên và học sinh được tôn trọng, không bị ép buộc hay rập khuôn máy móc theo phương cách giáo dục lỗi thời, xưa cũ."'
           pre="/."
           size="display2"
         >
-          Hiện nay
+          Trường học hạnh phúc là gì?
         </Title>
-        <ImageFull img="/placeholder.svg" text="homeImage" />
+        <ImageFull img="/logo.png" text="homeImage" />
 
         <Title
           label="Here starts your new professional life (All of our offers are not shown for confidentiality reasons)."
           pre="/."
           size="display2"
         >
-          Tầm nhìn và sứ mệnh
+          Bối cảnh
         </Title>
         <Info />
-
+        
+        <ImageFull img="/logo.png" text="homeImage" />
         <Footer />
       </div>
     </section>

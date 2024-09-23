@@ -10,6 +10,7 @@ const Carousel = () => {
       src="/logo.png" 
       alt="carousel1" 
       fill
+      
       priority={true}
       style={{
         objectFit: "cover",

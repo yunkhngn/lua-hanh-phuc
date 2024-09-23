@@ -1,6 +1,5 @@
 import React from 'react'
 import {Div, Button} from 'atomize'
-import Link from 'next/link'
 const SidePanel = () => {
   return (
    <Div
@@ -12,16 +11,16 @@ const SidePanel = () => {
     flexDir="column"
    >
       <div className="Heading">
-        <h1 className="SidePanelFont">Mang <span className="insideText">yêu thương</span><br/>sưởi ấm <br/> những trái tim.</h1>
-        <p className="Paragraph">Dự án mang tên Sưởi ấm, được lập nên với mong muốn tiếp sức và trao yêu thương, tiếp thêm động lực, lan tỏa năng lượng tích cực tới các em nhỏ mồ côi tại Làng trẻ em SOS.</p>
-        <Link href="/funding" passHref>
+        <h1 className="SidePanelFont">Trường học<span className="insideText">hạnh phúc</span></h1>
+        <p className="Paragraph">Dự án Lửa hạnh phúc, được thành lập nên với mong muốn truyền tải và lan tỏa giá trị tốt đẹp của mô hình “Trường học hạnh phúc” tiếp cận nhiều hơn tới các cơ sở giáo dục, trường học.</p>
           <Button
           w="200px"
           m={{ t: '2em',b: '1em' }}
           bg="black900"
           hoverBg="black500"
-          >Quyên góp</Button>
-        </Link>
+          //scroll down 100vh
+          onClick={() => window.scrollTo(0, 800)}
+          >Tìm hiểu thêm</Button>
       </div>
     </Div>
   )

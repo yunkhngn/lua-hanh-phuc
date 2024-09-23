@@ -7,7 +7,7 @@ const Pics = ({ data }) => {
   return (
     <section className="wrapper">
     <Title 
-        label="Here starts your new professional life (All of our offers are not shown for confidentiality reasons)."
+        label="Thư viện ảnh của dự án Lửa hạnh phúc và các hoạt động."
         pre="/ Gallery."
         size="display3"
         >Thư viện</Title>

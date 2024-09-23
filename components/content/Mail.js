@@ -5,7 +5,7 @@ const Mail = () => {
   return (
     <section className='contact wrapper'>
         <Title 
-        label="Here starts your new professional life (All of our offers are not shown for confidentiality reasons)."
+        label="Liên hệ với chúng tớ để biết thêm thông tin về dự án Lửa hạnh phúc."
         pre="/ Contact."
         size="display3"
         >Liên hệ</Title>

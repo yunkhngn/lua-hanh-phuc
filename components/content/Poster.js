@@ -5,7 +5,7 @@ const Poster = () => {
   return (
     <section className='poster wrapper'>
         <Title 
-        label="Here starts your new professional life (All of our offers are not shown for confidentiality reasons)."
+        label="Bài viết về dự án Lửa hạnh phúc và các hoạt động."
         pre="/ Post."
         size="display3"
         >Bài đăng</Title>

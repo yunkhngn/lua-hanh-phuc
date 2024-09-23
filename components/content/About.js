@@ -5,13 +5,13 @@ const About = () => {
   return (
     <section className='aboutUS wrapper'>
       <Title 
-        label="Here starts your new professional life (All of our offers are not shown for confidentiality reasons)."
+        label="Tổng quan về dự án Lửa hạnh phúc."
         pre="/ About us."
         size="display3"
-        >Về chúng tớ</Title>
+        >Về dự án</Title>
       <AboutUs/>
       <Title 
-        label="Here starts your new professional life (All of our offers are not shown for confidentiality reasons)."
+        label="Giới thiệu team sáng lập và điều hành dự án."
         pre="Team member."
         size="display1"
         >Thành viên dự án</Title>
