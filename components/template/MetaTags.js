@@ -4,7 +4,7 @@ const MetaTags = ({ meta }) => {
   return (
     <Head>
       <title>{meta.title}</title>
-      <meta name="description" content={meta.description} />
+      <meta name="description" content={meta.description}/>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
       <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
@@ -75,8 +75,8 @@ const MetaTags = ({ meta }) => {
       <meta
         property="og:description"
         content={
-          meta.desc ||
-          "Dự án sưởi ấm."
+          meta.description ||
+          'Dự án "sưởi ấm" là dự án từ thiện được thành lập bởi sinh viên trường đại học FPT.'
         }
       />
       <meta property="og:image" content={meta.img || "https://suoiam.vercel.app/thumbnail.jpg"} />
