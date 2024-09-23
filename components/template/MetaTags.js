@@ -69,7 +69,7 @@ const MetaTags = ({ meta }) => {
       <meta property="og:type" content="website" />
       <meta
         property="og:url"
-        content={meta.url || "https://suoiam.org"}
+        content={meta.url || "https://suoiam.vercel.app"}
       />
       <meta property="og:title" content={meta.title} />
       <meta
