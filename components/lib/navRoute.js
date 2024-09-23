@@ -17,7 +17,7 @@ const navRoute = [
     },
     {
         "name": "HeartSolid",
-        "route": "/funding"
+        "route": "/donation"
     },
     {
         "name": "Mail",

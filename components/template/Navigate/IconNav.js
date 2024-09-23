@@ -11,13 +11,13 @@ const IconNav = ({ name, route }) => {
       <Button
         h="3rem"
         w="100%"
-        bg={pathname === route ? (pathname === "/funding" ? "brand100" : "gray200") : "white"}
-        hoverBg={pathname === route ? (pathname === "/funding" ? "brand100" : "gray200") : "gray200"}
+        bg={pathname === route ? (pathname === "/donation" ? "brand100" : "gray200") : "white"}
+        hoverBg={pathname === route ? (pathname === "/donation" ? "brand100" : "gray200") : "gray200"}
         rounded="10px"
         m="1em auto 1em"
         transition
       >
-        <Icon name={name} size="25px" color={pathname === route ? (pathname === "/funding" ? "brand800" : "black500") : "gray600"} />
+        <Icon name={name} size="25px" color={pathname === route ? (pathname === "/donation" ? "brand800" : "black500") : "gray600"} />
       </Button>
     </Link>
   );

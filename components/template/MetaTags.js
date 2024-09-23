@@ -65,22 +65,22 @@ const MetaTags = ({ meta }) => {
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
       <meta name="theme-color" content="#ffffff" />
       {/* Facebook */}
-      <meta property="og:site_name" content="Sưởi ấm"></meta>
+      <meta property="og:site_name" content="Thắp lửa"></meta>
       <meta property="og:type" content="website" />
       <meta
         property="og:url"
-        content={meta.url || "https://suoiam.vercel.app"}
+        content={meta.url || "https://thaplua.vercel.app"}
       />
       <meta property="og:title" content={meta.title} />
       <meta
         property="og:description"
         content={
           meta.description ||
-          'Dự án "sưởi ấm" là dự án từ thiện được thành lập bởi sinh viên trường đại học FPT.'
+          'Dự án "thắp lửa" là dự án được thành lập bởi sinh viên trường đại học FPT.'
         }
       />
-      <meta property="og:image" content={meta.img || "https://suoiam.vercel.app/thumbnail.jpg"} />
-      <meta property="og:image:alt" content="Sưởi ấm" />
+      <meta property="og:image" content={meta.img || "https://thaplua.vercel.app/thumbnail.jpg"} />
+      <meta property="og:image:alt" content="Thắp lửa" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <meta property="fb:app_id" content="1881282985689458" />
@@ -90,8 +90,8 @@ const MetaTags = ({ meta }) => {
       <meta property="twitter:url" content={meta.url} />
       <meta name="twitter:title" content={meta.title} />
       <meta name="twitter:description" content={meta.description} />
-      <meta name="twitter:image" content={meta.img || "https://suoiam.vercel.app/thumbnail.jpg"} />
-      <meta property="twitter:image:alt" content="Sưởi ấm"/>
+      <meta name="twitter:image" content={meta.img || "https://thaplua.vercel.app/thumbnail.jpg"} />
+      <meta property="twitter:image:alt" content="Thắp lửa"/>
       <meta property="twitter:image:width" content="1200"/>
       <meta property="twitter:image:height" content="630"/>
     </Head>

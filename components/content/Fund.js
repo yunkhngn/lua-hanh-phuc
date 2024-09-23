@@ -5,9 +5,9 @@ const Fund = () => {
     <section className='fund wrapper'>
         <Title 
         label="Here starts your new professional life (All of our offers are not shown for confidentiality reasons)."
-        pre="/ Funding."
+        pre="/ Donation."
         size="display3"
-        >Chiến dịch gây quỹ</Title>
+        >Ủng hộ dự án</Title>
         <Footer/>
     </section>
   )

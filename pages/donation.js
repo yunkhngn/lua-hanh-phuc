@@ -3,7 +3,7 @@ import {Template} from '../components/template'
 import {desc} from '../components/lib/'
 import {Fund} from '../components/content/'
 
-const funding = () => {
+const donation = () => {
   return (
     <Template meta={desc.funding}>
       <Fund/>
@@ -11,4 +11,4 @@ const funding = () => {
   )
 }
 
-export default funding
+export default donation

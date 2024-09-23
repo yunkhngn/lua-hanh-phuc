@@ -65,7 +65,7 @@ const NavMobile = () => {
           w="90%"
           transition
           justify="flex-start"
-          onClick={() => window.location.href = "mailto:suoiam.project@gmail.com"}
+          onClick={() => window.location.href = "mailto:thaplua.project@gmail.com"}
         >
           <Text
           color="black500"
