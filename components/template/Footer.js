@@ -53,7 +53,7 @@ const Footer = () => {
       <hr className="footerHR" />
       <Div d="flex" justify="space-between" m={{ t: "2rem" }}>
         <Text textSize="body" textColor="gray800">
-          Copyright © Sưởi ấm
+          Copyright © Sưởi ấm Project
         </Text>
         <Text textSize="body" textColor="gray800">
           By Skibidi Team
