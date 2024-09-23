@@ -12,7 +12,8 @@ const Table = ({children, color, title, img}) => {
     d="flex"
     flexDir="column"
     rounded="16px"
-    shadow="4"
+    border="1px solid"
+    borderColor="gray400"
     className="suMenhTag"
     >
       <div className="suMenhPhoto">
@@ -37,7 +38,7 @@ const Table = ({children, color, title, img}) => {
         textWeight="600"
         >{title}</Text>
         <Text
-        m={{ b: "1em"}}
+        m={{ b: "2em"}}
         textSize="title"
         >{children}</Text>
         </Div>

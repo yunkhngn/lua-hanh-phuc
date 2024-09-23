@@ -3,7 +3,7 @@ import { Div, Text } from "atomize";
 import Image from "next/image";
 const Footer = () => {
   return (
-    <Div>
+    <Div m={{t: "5em"}}>
       <hr className="footerHR" />
       <Div
       w="100%"

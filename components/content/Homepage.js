@@ -1,5 +1,5 @@
 import React from 'react'
-import {ShowCase, AboutUs, Title, Info} from '@/components/template'
+import {ShowCase, AboutUs, Title, Info, Footer} from '@/components/template'
 
 const Homepage = () => {
   return (
@@ -18,6 +18,7 @@ const Homepage = () => {
         size="display2"
         >Tầm nhìn và sứ mệnh</Title>
       <Info/>
+      <Footer/>
       </div>
     </section>
   )
