@@ -24,9 +24,9 @@ const Homepage = () => {
         <ImageFull img="/logo.png" text="homeImage" />
 
         <Title
-          label="Here starts your new professional life (All of our offers are not shown for confidentiality reasons)."
           pre="/."
           size="display2"
+          label="Bối cảnh hiện nay."
         >
           Bối cảnh
         </Title>
