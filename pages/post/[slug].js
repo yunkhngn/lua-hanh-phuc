@@ -116,7 +116,6 @@ const formatDate = (dateString) => {
   };
 
 const WritingPage = ({ post }) => {
-  console.log(post);
   function truncateHtml(htmlString, maxLength) {
     const text = htmlToText(documentToHtmlString(htmlString), {
       wordwrap: false,
