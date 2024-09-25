@@ -44,6 +44,11 @@ button {
   margin: 0 auto 5em;
 }
 
+html ::selection{
+  background-color: #FFE381;
+  color: #0A1F44;
+}
+
 .template {
   width: calc(100% - 76px);
   margin: 0em 76px 0em;
@@ -223,9 +228,14 @@ button {
 
 .writingText{
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  text-indent: 2em;
+  font-family: "Roboto", san-serif;
   letter-spacing: 0.5px;
   color:#0A1F44;
+}
+
+.writingText p {
+  margin-bottom: 1.5em; /* Adjust as needed */
 }
 .path:hover::before{
   height: 50%;
