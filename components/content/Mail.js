@@ -1,14 +1,15 @@
 import React from 'react'
-import {Title, Footer} from '../template'
+import {Title, Footer, Contact} from '../template'
 
 const Mail = () => {
   return (
     <section className='contact wrapper'>
         <Title 
-        label="Liên hệ với chúng tớ để biết thêm thông tin về dự án Lửa hạnh phúc."
+        label="Liên hệ với dự án."
         pre="/ Contact."
         size="display3"
         >Liên hệ</Title>
+        <Contact/>
         <Footer/>
     </section>
   )
