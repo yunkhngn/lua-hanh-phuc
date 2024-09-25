@@ -134,10 +134,10 @@ const WritingPage = ({ post }) => {
     return text;
   }
   const desc = {
-    // title: `${post.Title}`,
-    // description: truncateHtml(post.Body, 100),
-    // url: `https://luahanhphuc.vercel.app/post/${post.slug}`,
-    // img: post.Image,
+    title: `${post.Title}`,
+    description: truncateHtml(post.Body, 100),
+    url: `https://luahanhphuc.vercel.app/post/${post.slug}`,
+    img: post.Image,
   };
   return <Template meta={desc}>
     <div className="wrapper">
