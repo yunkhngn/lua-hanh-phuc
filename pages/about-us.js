@@ -7,6 +7,7 @@ const aboutUs = () => {
   return (
     <Template meta={desc.about}>
       <About/>
+      
     </Template>
   )
 }
