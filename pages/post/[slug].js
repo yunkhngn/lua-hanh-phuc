@@ -119,6 +119,7 @@ const formatDate = (dateString) => {
   };
 
 const WritingPage = ({ post }) => {
+  console.log(post)
   function truncateHtml(htmlString, maxLength) {
     const text = htmlToText(documentToHtmlString(htmlString), {
       wordwrap: false,
@@ -129,12 +130,12 @@ const WritingPage = ({ post }) => {
 
     return text;
   }
-  const src = post.Image;
+  
   const desc = {
     title: `${post.Title}`,
     description: truncateHtml(post.Body, 100),
     url: `https://luahanhphuc.vercel.app/post/${post.slug}`,
-    img: src,
+    img: post.Image,
   };
 
   return <Template meta={desc}>
