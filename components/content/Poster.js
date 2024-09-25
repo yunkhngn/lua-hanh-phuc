@@ -36,6 +36,7 @@ const Poster = ({data}) => {
              >{item.title}</Text>
              <Text
              m={{ b: "1rem" }}
+            
              >{item.description}</Text>
                <p className="linkTo">Đọc thêm</p>
             </Div>

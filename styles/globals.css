@@ -231,6 +231,7 @@ html ::selection{
   text-indent: 2em;
   font-family: "Roboto", san-serif;
   letter-spacing: 0.5px;
+  line-height: 1.5;
   color:#0A1F44;
 }
 
