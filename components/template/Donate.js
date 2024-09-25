@@ -23,7 +23,7 @@ const Donate = () =>{
     Ủng hộ dự án của chúng tớ qua QR:
       </Text>
     <Image 
-      src="/donate.jpg"
+      src="/logo.png"
       width={500}
       height={500}
       alt="Donation"
