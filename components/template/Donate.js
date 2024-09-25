@@ -26,7 +26,7 @@ const Donate = () =>{
       src="/donate.jpg"
       width={500}
       height={500}
-      alt="Donate"
+      alt="Donation"
     />
   </Div>
   )
