@@ -85,14 +85,16 @@ export async function getStaticProps({ params }) {
 
     if (response.items.length > 0) {
       const item = response.items[0];
+
       const postData = {
         id: item.sys.id,
         Title: item.fields.title,
-        Image: `https:${item.fields.img.fields.file.url}`,
+        Image: item.fields.img ? `https:${item.fields.img.fields.file.url}` : '/thumbnail.jpg', // Fallback if image is missing
         createdAt: item.sys.createdAt,
         Body: item.fields.rich,
         slug: item.fields.slug,
       };
+
       return {
         props: { post: postData },
         revalidate: 60,
@@ -107,6 +109,7 @@ export async function getStaticProps({ params }) {
     return { notFound: true };
   }
 }
+
 const formatDate = (dateString) => {
     const date = new Date(dateString);
     const day = String(date.getDate()).padStart(2, '0');
