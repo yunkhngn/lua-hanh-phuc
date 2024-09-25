@@ -47,7 +47,7 @@ yarn start
 - [ ] Optimize image
 - [ ] Finish content
 - [ ] Create campaign page
-- [] Create mail template
+- [ ] Create mail template
 
 
 ## Contributing
