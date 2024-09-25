@@ -85,11 +85,11 @@ export async function getStaticProps({ params }) {
 
     if (response.items.length > 0) {
       const item = response.items[0];
-
+      console.log(item)
       const postData = {
         id: item.sys.id,
         Title: item.fields.title,
-        Image: item.fields.img ? `https:${item.fields.img.fields.file.url}` : '/thumbnail.jpg', // Fallback if image is missing
+        Image: 'https:' + item.fields.img.fields.file.url,// Fallback if image is missing
         createdAt: item.sys.createdAt,
         Body: item.fields.rich,
         slug: item.fields.slug,
@@ -120,6 +120,9 @@ const formatDate = (dateString) => {
 
 const WritingPage = ({ post }) => {
   console.log(post)
+  if (!post) {
+    return <div>Post not found.</div>;
+  }
   function truncateHtml(htmlString, maxLength) {
     const text = htmlToText(documentToHtmlString(htmlString), {
       wordwrap: false,
@@ -130,14 +133,12 @@ const WritingPage = ({ post }) => {
 
     return text;
   }
-  
   const desc = {
-    title: `${post.Title}`,
-    description: truncateHtml(post.Body, 100),
-    url: `https://luahanhphuc.vercel.app/post/${post.slug}`,
-    img: post.Image,
+    // title: `${post.Title}`,
+    // description: truncateHtml(post.Body, 100),
+    // url: `https://luahanhphuc.vercel.app/post/${post.slug}`,
+    // img: post.Image,
   };
-
   return <Template meta={desc}>
     <div className="wrapper">
     <Div m={{ t: {xs:"3em", md:"5em"}}}>
