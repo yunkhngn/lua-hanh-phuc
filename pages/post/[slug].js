@@ -119,7 +119,6 @@ const formatDate = (dateString) => {
   };
 
 const WritingPage = ({ post }) => {
-  console.log(post)
   if (!post) {
     return <div>Post not found.</div>;
   }
