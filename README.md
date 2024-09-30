@@ -1,4 +1,4 @@
-# Sưởi ấm project
+# Lửa hạnh phúc
 
 ## Overview
 
@@ -22,11 +22,11 @@ Social Project SSG104 is a social project aimed at fostering community engagemen
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yunkhngn/social-project-ssg104.git
+    git clone https://github.com/yunkhngn/lua-hanh-phuc.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd social-project-ssg104
+    cd lua-hanh-phuc
     ```
 3. Install dependencies:
     ```bash
