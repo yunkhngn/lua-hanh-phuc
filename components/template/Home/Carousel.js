@@ -7,7 +7,7 @@ const Carousel = () => {
     className="carousel"
     >
       <Image 
-      src="/stock/poster.jpeg" 
+      src="/stock/poster.png" 
       alt="carousel1" 
       fill
       priority={true}
