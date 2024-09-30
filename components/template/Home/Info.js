@@ -8,17 +8,14 @@ const Info = () => {
     {
         "title": "Lớp học an toàn",
         "content": "Trẻ được đảm bảo an toàn về tinh thần, thể chất, không có tình trạng bạo hành, luôn gắn kết, giúp đỡ và tôn trọng.",
-        "img": "/placeholder.svg"
     },
     {
         "title": "Môi trường tốt",
         "content": "Lớp học thực hiện tốt nội quy, tạo cơ hội để học sinh phát huy tiềm năng. Lớp học đoàn kết, yêu thương, thấu hiểu lẫn nhau.",
-        "img": "/placeholder.svg"
     },
     {
         "title": "Tinh thần vui vẻ",
         "content": "Nhiều trường đã thiết lập các chương trình hỗ trợ tâm lý để giúp học sinh đối phó với căng thẳng, lo âu trong cuộc sống học đường.",
-        "img": "/placeholder.svg"
     },
   ]
 
@@ -44,7 +41,7 @@ const Info = () => {
             textAlign="center"
             textWeight="bold"
             textSize={{ xs: "heading", md: "display1" }}
-            >Môi trường học an toàn, thân thiện là 1 tiêu chí xây dựng lớp học hạnh phúc, bao gồm 3 yếu tố: 
+            >Tiêu chí xây dựng lớp học hạnh phúc bao gồm 3 yếu tố: 
             </Text>
         <div className="suMenh">
         {aim.map((item,index) => (
@@ -52,7 +49,6 @@ const Info = () => {
             key={index}
             title={item.title}
             color="white"
-            img="/logo.png"
             >{item.content}</Table>
         ))}
         </div>

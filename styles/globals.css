@@ -150,13 +150,6 @@ html ::selection{
   color: rgb(221,111,84);
   transition: all 0.3s ease;
 }
-.suMenhPhoto{
-  width: 100%;
-  position: relative;
-  aspect-ratio: 1/1;
-  overflow: hidden;
-  cursor: pointer;
-}
 .Look{
   width: 80%;
   padding-left:10%;

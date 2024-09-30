@@ -21,7 +21,7 @@ const Homepage = () => {
         >
           Lớp học hạnh phúc là gì?
         </Title>
-        <ImageFull img="/logo.png" text="homeImage" />
+        <ImageFull img="/stock/stock-1.jpg" text="homeImage" />
 
         <Title
           pre="/."
@@ -32,7 +32,7 @@ const Homepage = () => {
         </Title>
         <Info />
         
-        <ImageFull img="/logo.png" text="homeImage" />
+        <ImageFull img="/stock/stock-2.jpg" text="homeImage" />
         <Footer />
       </div>
     </section>

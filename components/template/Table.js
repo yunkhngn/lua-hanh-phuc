@@ -16,19 +16,6 @@ const Table = ({children, color, title, img}) => {
     borderColor="gray400"
     className="suMenhTag"
     >
-      <div className="suMenhPhoto">
-      <Image 
-      src={img}
-      alt={title}
-      fill
-      priority={true}
-      style={{
-        objectFit: "cover",
-        borderRadius: "16px 16px 0 0",
-      }}
-      onDragStart={(e) => e.preventDefault()}
-      />
-      </div>
       <Div
       p={{ x: "2em", y: "0.5em" }}
       >
