@@ -22,7 +22,7 @@ const Navigate = () => {
         ))}
       </div>
       <div className={styles.setting}>
-        <IconSetting name="Facebook" link="https://www.facebook.com/profile.php?id=61565956388064" />
+        <IconSetting name="Facebook" link="https://www.facebook.com/luahanhphuc2024" />
         <IconSetting name="Email" link="mailto:luahanhphuc@gmail.com" />
       </div>
       <div className={styles.mobile}>

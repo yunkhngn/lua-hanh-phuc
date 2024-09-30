@@ -49,7 +49,7 @@ const NavMobile = () => {
           border={{ b: "1px solid" }}
           borderColor="gray300"
           justify="flex-start"
-          onClick={() => window.open("https://www.facebook.com/profile.php?id=61565956388064")}
+          onClick={() => window.open("https://www.facebook.com/luahanhphuc2024")}
         >
           <Text
           color="black500"
