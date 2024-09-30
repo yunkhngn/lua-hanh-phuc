@@ -2,7 +2,9 @@ import React from 'react'
 import {Div, Text} from 'atomize'
 const Contact = () => {
   return (
-    <Div>
+    <Div 
+    w={{ xs: "100%", md: "50%" }}
+    >
         <Text
         textSize="heading"
         >Liên hệ với chúng tớ để biết thêm thông tin về dự án Lửa hạnh phúc.</Text>

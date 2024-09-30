@@ -90,7 +90,11 @@ const Carousel = () => {
       <Slider {...settings}>
         {img.map((item, index) => (
           <div key={index} className="carousel--img">
-            <Image src={item} alt="stock" fill style={{ objectFit: "cover" }} />
+            <Image src={item} 
+            alt="stock" 
+            fill
+            priority={true}
+            style={{ objectFit: "cover" }} />
           </div>
         ))}
       </Slider>

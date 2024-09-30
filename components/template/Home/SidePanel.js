@@ -1,5 +1,5 @@
 import React from 'react'
-import {Div, Button} from 'atomize'
+import {Div, Button, scrollTo} from 'atomize'
 const SidePanel = () => {
   return (
    <Div
@@ -18,8 +18,7 @@ const SidePanel = () => {
           m={{ t: '2em',b: '1em' }}
           bg="black900"
           hoverBg="black500"
-          //scroll down 100vh
-          onClick={() => window.scrollTo(0, 800)}
+          onClick={() => scrollTo("#homePageTag", 0, 0, 100)}
           >Tìm hiểu thêm</Button>
       </div>
     </Div>

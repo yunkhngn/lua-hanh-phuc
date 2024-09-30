@@ -5,7 +5,7 @@ const Homepage = () => {
   return (
     <section>
       <ShowCase />
-      <div className="wrapper">
+      <div id="homePageTag" className="wrapper">
         <Title
           label="Giới thiệu thông tin về dự án."
           pre="/."
