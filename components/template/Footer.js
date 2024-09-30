@@ -37,7 +37,7 @@ const Footer = () => {
             <Text
             m={{t: "2em"}}
             textSize="subheader"
-            >Email: luahanhphuc.project@gmail.com</Text>
+            >Email: luahanhphuc@gmail.com</Text>
             <Text
             textSize="subheader"
             >Tel: 0376971168 (Mr. Khoa)</Text>
