@@ -15,11 +15,11 @@ const Homepage = () => {
         </Title>
         <AboutUs />
         <Title
-          label='"Môi trường giáo dục hạnh phúc hướng đến mục tiêu tạo dựng môi trường lý tưởng cho giáo viên và người học đều cảm thấy hạnh phúc, có hành vi và tâm hồn đẹp. Thầy cô giáo và học sinh có cơ hội phát triển toàn diện, thúc đẩy một tương lai trường học cấp tiên và thân thiện. Mọi cảm xúc riêng biệt, sự sáng tạo, cá tính của giáo viên và học sinh được tôn trọng, không bị ép buộc hay rập khuôn máy móc theo phương cách giáo dục lỗi thời, xưa cũ."'
+          label='"Lớp học hạnh phúc là môi trường học đường nơi mà học sinh và giáo viên hình thành, duy trì các trạng thái cảm xúc tích cực, cảm thấy hạnh phúc. Tham gia vào lớp học hạnh phúc sẽ thiết lập được tình cảm lành mạnh, góp phần vào sự phát triển nhân cách tốt đẹp cho mỗi cá nhân. Đây chính là nơi mà mỗi cá nhân muốn đến và có sự mong chờ, hứng thú, rung cảm. Lớp học hạnh phúc làm cho mỗi người cảm nhận được sự an toàn, thú vị, sự nâng đỡ khi có nhiều nhu cầu được thỏa mãn."'
           pre="/."
           size="display2"
         >
-          Trường học hạnh phúc là gì?
+          Lớp học hạnh phúc là gì?
         </Title>
         <ImageFull img="/logo.png" text="homeImage" />
 

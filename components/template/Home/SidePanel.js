@@ -11,8 +11,8 @@ const SidePanel = () => {
     flexDir="column"
    >
       <div className="Heading">
-        <h1 className="SidePanelFont">Trường học<span className="insideText">hạnh phúc</span></h1>
-        <p className="Paragraph">Dự án Lửa hạnh phúc, được thành lập nên với mong muốn truyền tải và lan tỏa giá trị tốt đẹp của mô hình “Trường học hạnh phúc” tiếp cận nhiều hơn tới các cơ sở giáo dục, trường học.</p>
+        <h1 className="SidePanelFont">Lớp học<br/><span className="insideText">hạnh phúc</span></h1>
+        <p className="Paragraph">Dự án Lửa hạnh phúc được thành lập nên với mong muốn truyền tải và xây dựng “Lớp học hạnh phúc” trong các cơ sở giáo dục và nhà trường.</p>
           <Button
           w="200px"
           m={{ t: '2em',b: '1em' }}

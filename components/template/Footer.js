@@ -33,7 +33,7 @@ const Footer = () => {
         >
             <Text
             textSize="title"
-            >Dự án Lửa hạnh phúc, được thành lập nên với mong muốn truyền tải và lan tỏa giá trị tốt đẹp của mô hình “Trường học hạnh phúc” tiếp cận nhiều hơn tới các cơ sở giáo dục, trường học.</Text>
+            >Dự án Lửa hạnh phúc được thành lập nên với mong muốn truyền tải và xây dựng “Lớp học hạnh phúc” trong các cơ sở giáo dục và nhà trường.</Text>
             <Text
             m={{t: "2em"}}
             textSize="subheader"
