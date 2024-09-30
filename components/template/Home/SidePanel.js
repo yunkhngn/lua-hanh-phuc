@@ -4,7 +4,7 @@ const SidePanel = () => {
   return (
    <Div
     p="2em"
-    w={{ xs: '100%', md: '50%' }}
+    w={{ xs: '100%', md: '50vw' }}
     justify="center"
     align="left"
     d="flex"

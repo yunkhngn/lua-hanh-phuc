@@ -54,11 +54,30 @@ html ::selection{
   margin: 0em 76px 0em;
 }
 
-.carousel{
-  position: relative;
-  width: 50%;
-  overflow: hidden;
+.carousel--container {
+  width: 50vw; /* Chỉ định chiều rộng của container là 50% của viewport */
+  height: 300px;
+  overflow-x: hidden; /* Ẩn phần tràn */
+}
+
+.imgList {
+  display: flex;
+  transition: transform 0.3s ease; /* Hiệu ứng chuyển ảnh mượt mà */
+  width: calc(50vw * 3); /* 3 là số lượng ảnh trong carousel */
+}
+.carousel {
+  flex: 0 0 50%; /* Mỗi ảnh chiếm 50% chiều rộng của container */
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel--img {
+  width: 50vw;
+  height: 100vh; /* Căn chỉnh chiều cao phù hợp với container */
+  position: relative;
+
 }
 
 .SidePanelFont{
@@ -293,6 +312,27 @@ html ::selection{
 }
 
 @media (max-width: 768px) {
+  .carousel--container{
+    overflow-x: hidden;
+  }
+  
+  .imgList{
+    display: flex;
+    width: 100vw;
+    transition: transform 0.2s;
+  }
+  
+  .carousel{
+    flex: 1;
+    cursor: pointer;
+  }
+  
+  .carousel--img{
+    width: 100vw;
+    height: 300px;
+    position: relative;
+  }
+
   .poster__content{
     width: 100%;
     display:grid;
@@ -341,10 +381,6 @@ html ::selection{
     top:0;
     right:0;
     margin: 1em;
-  }
-  .carousel{
-    width: 100%;
-    height: 300px;
   }
   .SidePanelFont{
     font-size: 45px;
