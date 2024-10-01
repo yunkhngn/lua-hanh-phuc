@@ -45,8 +45,8 @@ const options = {
             m={{ b: "2em" }}
             justify="center"
             textAlign="center"
-
-            ><i>{description}</i></Text>
+            ><i
+            >{description}</i></Text>
             </div>
           );
         }
@@ -155,20 +155,6 @@ const WritingPage = ({ post }) => {
       <hr className="seperate"/>
 
     </Div>
-        <div className="writingPhoto">
-          <Image
-            src={post.Image}
-            alt={post.Title}
-            fill
-            priority={true}
-            quality={75}
-            sizes= "100%"
-            style={{
-              objectFit: "cover",
-            }}
-            onDragStart={(e) => e.preventDefault()}
-          />
-        </div>
         <div
         className="writingText"
         >{documentToReactComponents(post.Body, options)}</div>

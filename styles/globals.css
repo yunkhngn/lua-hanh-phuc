@@ -128,7 +128,9 @@ html ::selection{
 .embedPhoto{
   position: relative;
   aspect-ratio: 1/1;
-  margin-bottom: 1em;
+  margin: auto;
+  width: 50%;
+  margin-bottom: 2em;
   margin-top :2em;
 
 }
@@ -183,7 +185,7 @@ html ::selection{
 .writingPhoto{
   width: 100%;
   position: relative;
-  aspect-ratio: 16/6;
+  aspect-ratio: 16/10;
   overflow: hidden;
   cursor: pointer;
   border-radius: 12px;
@@ -222,7 +224,6 @@ html ::selection{
 
 .writingText{
   font-size: 20px;
-  text-indent: 2em;
   font-family: "Roboto", san-serif;
   letter-spacing: 0.5px;
   line-height: 1.5;
@@ -235,7 +236,6 @@ html ::selection{
 .path:hover::before{
   height: 50%;
 }
-
 .teamMember{
   display: grid;
   margin:auto;
@@ -294,6 +294,9 @@ html ::selection{
 }
 
 @media (max-width: 768px) {
+  .embedPhoto{
+    width: 100%;
+  }
   .carousel--img{
     width: 100vw;
     height: 350px;
