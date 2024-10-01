@@ -127,10 +127,10 @@ html ::selection{
 }
 .embedPhoto{
   position: relative;
-  aspect-ratio: 1/1;
+  aspect-ratio: 16/9;
   margin: auto;
-  width: 50%;
-  margin-bottom: 2em;
+  width: 70%;
+  margin-bottom: 1em;
   margin-top :2em;
 
 }
