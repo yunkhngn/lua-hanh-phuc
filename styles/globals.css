@@ -112,6 +112,7 @@ html ::selection{
   overflow: hidden;
   cursor: pointer;
   border-radius: 16px;
+  margin-top: 3em;
 }
 .title{
   font-size: 80px;
@@ -352,11 +353,11 @@ html ::selection{
     margin: 1em;
   }
   .SidePanelFont{
-    font-size: 45px;
+    font-size: 15vw;
   }
   .Paragraph{
     width: 100%;
-    font-size: 16px;
+    font-size: 1.5em;
   }
   .Heading{
     margin-left: 1em;

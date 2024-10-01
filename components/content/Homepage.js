@@ -1,5 +1,6 @@
 import React from "react";
 import { ShowCase, AboutUs, Title, Info, Footer, ImageFull } from "@/components/template";
+import { Text } from "atomize";
 
 const Homepage = () => {
   return (
@@ -7,11 +8,11 @@ const Homepage = () => {
       <ShowCase />
       <div id="homePageTag" className="wrapper">
         <Title
-          label="Giới thiệu thông tin về dự án."
+          label="Giới thiệu thông tin về dự án Lửa hạnh phúc."
           pre="/."
           size="display2"
         >
-          Dự án là gì
+          Tổng quan dự án
         </Title>
         <AboutUs />
         <Title
@@ -31,7 +32,6 @@ const Homepage = () => {
           Bối cảnh
         </Title>
         <Info />
-        
         <ImageFull img="/stock/stock-2.jpg" text="homeImage" />
         <Footer />
       </div>
