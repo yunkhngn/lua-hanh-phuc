@@ -2,8 +2,5 @@
 User-agent: *
 Allow: /
 
-# Host
-Host: https://luahanhphuc.com
-
 # Sitemaps
 Sitemap: https://luahanhphuc.com/sitemap.xml
