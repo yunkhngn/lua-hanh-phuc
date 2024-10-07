@@ -1,12 +1,13 @@
 {
-  "name": "suoi-am",
+  "name": "lua-hanh-phuc",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@contentful/rich-text-html-renderer": "^16.6.10",
