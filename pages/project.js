@@ -1,14 +1,14 @@
 import React from 'react'
 import {Template} from '../components/template'
 import {desc} from '../components/lib/'
-import {Fund} from '../components/content/'
+import {Mail} from '../components/content/'
 
-const donation = () => {
+const project = () => {
   return (
-    <Template meta={desc.funding}>
-      <Fund/>
+    <Template meta={desc.project}>
+      các dự án
     </Template>
   )
 }
 
-export default donation
+export default project

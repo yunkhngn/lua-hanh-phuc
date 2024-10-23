@@ -59,9 +59,6 @@ const Carousel = () => {
   const img = [
     "/stock/stock-6.jpg",
     "/stock/stock-1.jpg",
-    "/stock/stock-2.jpg",
-    "/stock/stock-3.jpg",
-    "/stock/stock-5.jpg",
   ];
   const settings = {
     dots: true,

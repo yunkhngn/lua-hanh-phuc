@@ -1,39 +1,39 @@
 const desc = {
     home: {
         route: '/',
-        title: 'Dự án "Lửa hạnh phúc"',
-        url: 'https://luahanhphuc.com/',
-        description: 'Dự án "Lửa hạnh phúc" là dự án được thành lập bởi sinh viên trường đại học FPT.',
+        title: 'Hành Trình SSG',
+        url: 'https://hanhtrinhssg.com/',
+        description: 'Hành trình SSG là kho lưu trữ các dự án SSG qua các kỳ, đồng thời là cầu nối kết nối các thế hệ sinh viên. Tại đây, sinh viên có thể chia sẻ và học hỏi từ những kinh nghiệm thực tế của các dự án SSG trước đây.',
     },
     about: {
         route: '/about',
         title: 'Về chúng tớ',
-        url: 'https://luahanhphuc.com/about-us',
-        description: 'Giới thiệu tổng quan về dự án "Lửa hạnh phúc".',
+        url: 'https://hanhtrinhssg.com/about-us',
+        description: 'Giới thiệu tổng quan về dự án "Hành Trình SSG".',
     },
+    project: {
+        route: '/project',
+        title: 'Kho tàng dự án',
+        url: 'https://hanhtrinhssg.com/project',
+        description: 'Kho tàng dự án SSG.',
+    }, 
     gallery: {
         route: '/gallery',
         title: 'Thư viện',
-        url: 'https://luahanhphuc.com/gallery',
-        description: 'Thư viện ảnh của dự án "Lửa hạnh phúc" và các hoạt động.',
+        url: 'https://hanhtrinhssg.com/gallery',
+        description: 'Thư viện ảnh của các dự án.',
     },
     post: {
         route: '/post',
         title: 'Bài viết',
-        url: 'https://luahanhphuc.com/post',
-        description: 'Bài viết về dự án "Lửa hạnh phúc" và các hoạt động.',
+        url: 'https://hanhtrinhssg.com/post',
+        description: 'Bài viết về các dự án.',
     },
-    funding: {
-        route: '/donation',
-        title: 'Ủng hộ dự án',
-        url: 'https://luahanhphuc.com/funding',
-        description: 'Ủng hộ dự án "Lửa hạnh phúc".',
-    }, 
     contact: {
         route: '/contact',
         title: 'Liên hệ',
-        url: 'https://luahanhphuc.com/contact',
-        description: 'Liên hệ với chúng tớ để biết thêm thông tin về dự án "Lửa hạnh phúc".',
+        url: 'https://hanhtrinhssg.com/contact',
+        description: 'Liên hệ với chúng tớ để biết thêm thông tin về dự án.',
     },
 }
 

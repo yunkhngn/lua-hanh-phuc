@@ -13,7 +13,7 @@ const SidePanel = () => {
    >
       <div className="Heading">
         <h1 className="SidePanelFont">Hành Trình <span className="insideText">SSG</span></h1>
-        <p className="Paragraph">Dự án Lửa hạnh phúc được thành lập nên với mong muốn truyền tải và xây dựng “Lớp học hạnh phúc” trong các cơ sở giáo dục và nhà trường.</p>
+        <p className="Paragraph">Hành trình SSG là kho lưu trữ các dự án SSG qua các kỳ, đồng thời là cầu nối kết nối các thế hệ sinh viên. Tại đây, sinh viên có thể chia sẻ và học hỏi từ những kinh nghiệm thực tế của các dự án SSG trước đây.</p>
           <Button
           w="200px"
           m={{ t: '2em',b: '1em' }}
