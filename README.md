@@ -1,4 +1,4 @@
-# Lửa hạnh phúc
+# Hành Trình SSG
 
 ## Overview
 
@@ -22,11 +22,11 @@ Social Project SSG104 is a social project aimed at fostering community engagemen
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yunkhngn/lua-hanh-phuc.git
+    git clone https://github.com/yunkhngn/hanh-trinh-ssg.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd lua-hanh-phuc
+    cd hanh-trinh-ssg
     ```
 3. Install dependencies:
     ```bash
